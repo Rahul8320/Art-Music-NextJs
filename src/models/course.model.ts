@@ -5,6 +5,6 @@ export interface CourseModel {
   description: string;
   price: number;
   instructor: string;
-  isFeatured: true;
+  isFeatured: boolean;
   image: string;
 }

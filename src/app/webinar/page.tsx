@@ -1,6 +1,7 @@
 "use client";
 
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+import { Meteors } from "@/components/ui/meteors";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -9,6 +10,7 @@ import { webinars } from "@/data/webinars.json";
 const AllWebinars = () => {
   return (
     <div className="pt-36 w-full dark:bg-black dark:bg-dot-white/[0.2]">
+      <Meteors number={25} />
       <h2 className="text-4xl text-center underline decoration-orange-300 underline-offset-4">
         All Webinars ({webinars.length})
       </h2>
