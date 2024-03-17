@@ -4,42 +4,49 @@
       "title": "Mastering Music Theory for Beginners",
       "description": "Demystify the fundamentals of music theory and gain a solid foundation for composing, performing, and appreciating music at a deeper level. This introductory webinar is perfect for anyone curious about the language of music.",
       "slug": "mastering-music-theory-beginners",
+      "image": "blues.jpg",
       "isFeatured": true
     },
     {
       "title": "Unlocking Your Vocal Potential",
       "description": "Learn practical techniques and exercises to improve your vocal range, control, and confidence. This webinar is valuable for singers of all levels, from those just starting out to those looking to refine their existing skills.",
       "slug": "unlocking-vocal-potential",
+      "image": "classical-music.jpg",
       "isFeatured": true
     },
     {
       "title": "The Art of Songwriting: Crafting Compelling Lyrics",
       "description": "Explore the power of words in music. This webinar will equip you with strategies for writing meaningful lyrics that connect with your audience and elevate your songs. Suitable for aspiring songwriters and musicians who want to take their songwriting to the next level.",
       "slug": "art-songwriting-compelling-lyrics",
+      "image": "drumming.jpg",
       "isFeatured": true
     },
     {
       "title": "Music Production Essentials: Recording at Home",
       "description": "Turn your home into a recording studio! This webinar will guide you through the basics of home music production, from setting up your equipment to capturing high-quality audio. Ideal for musicians who want to record their own music without breaking the bank.",
       "slug": "music-production-essentials-home",
+      "image": "edm.jpg",
       "isFeatured": true
     },
     {
       "title": "Building a Successful Music Career in the Digital Age",
       "description": "Navigate the ever-evolving music industry landscape. This webinar will provide actionable tips on marketing yourself online, building your fanbase, and achieving your musical goals in the digital age. Perfect for aspiring musicians and artists looking to gain a competitive edge.",
       "slug": "successful-music-career-digital",
+      "image": "guitar.jpg",
       "isFeatured": true
     },
     {
       "title": "Ear Training for Musicians: Recognizing Intervals and Chords",
       "description": "Develop your musical ear and become a more well-rounded musician. This webinar will introduce you to ear training techniques that help you identify intervals and chords by ear. This skill is valuable for improvisation, composition, and overall musicianship.",
       "slug": "ear-training-musicians",
+      "image": "jazz.jpg",
       "isFeatured": false
     },
     {
       "title": "Music History 101: Exploring the Evolution of Music",
       "description": "Embark on a journey through time and discover the rich history of music. This webinar will introduce you to major musical styles and periods, from the classical era to contemporary music. Perfect for music enthusiasts who want to deepen their understanding and appreciation of the art form.",
       "slug": "music-history-101",
+      "image": "piano.jpg",
       "isFeatured": true
     }
   ]
