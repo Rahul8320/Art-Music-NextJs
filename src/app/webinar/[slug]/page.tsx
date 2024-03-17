@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { MultiStepLoader as Loader } from "@/components/ui/multi-step-loader";
 import { SparklesCore } from "@/components/ui/sparkles";
 import { webinars } from "@/data/webinars.json";
-import { WebinarModel } from "@/app/models/webinar.model";
+import { WebinarModel } from "@/models/webinar.model";
 import Image from "next/image";
 
 const loadingStates = [

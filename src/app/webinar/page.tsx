@@ -9,8 +9,8 @@ import { webinars } from "@/data/webinars.json";
 const AllWebinars = () => {
   return (
     <div className="pt-36 w-full dark:bg-black dark:bg-dot-white/[0.2]">
-      <h2 className="text-3xl text-center underline decoration-orange-300 underline-offset-4">
-        All Webinars
+      <h2 className="text-4xl text-center underline decoration-orange-300 underline-offset-4">
+        All Webinars ({webinars.length})
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 py-5 lg:py-10 lg:px-20">
