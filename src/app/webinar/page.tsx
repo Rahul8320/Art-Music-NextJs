@@ -42,19 +42,19 @@ const AllWebinars = () => {
               <div className="flex justify-between items-center mt-20">
                 <CardItem
                   translateZ={20}
-                  as={Link}
-                  href={`/webinar/${webinar.slug}`}
-                  target="__blank"
-                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                  as="button"
+                  className="px-4 py-2 rounded-xl bg-black dark:bg-neutral-400 dark:text-black text-white text-xs font-bold cursor-default"
                 >
-                  View Details
+                  {webinar.isFeatured ? "Featured Already" : "Coming Soon"}
                 </CardItem>
                 <CardItem
                   translateZ={20}
-                  as="button"
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold cursor-default"
+                  as={Link}
+                  href={`/webinar/${webinar.slug}`}
+                  target="_blank"
+                  className="px-4 py-2 rounded-xl text-xs font-bold dark:text-black dark:bg-slate-400 shadow-md shadow-slate-500"
                 >
-                  {webinar.isFeatured ? "Featured Already" : "Coming Soon"}
+                  View Details
                 </CardItem>
               </div>
             </CardBody>
